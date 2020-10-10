@@ -67,7 +67,7 @@ section{
 
 .banner{
     position: relative;
-    margin: 5px 0px 0px;
+    margin: 18px 0px 0px;
     width: 100%;
     height: 350px;
     border: indigo 1px solid;
@@ -128,6 +128,12 @@ section{
     text-align: center;
 }
 
+hr{
+    border: 1px solid #F82424;
+    width: 20%;
+    margin: auto;
+}
+
 .aboutwrap{
     margin: 50px 0px;
 }
@@ -150,34 +156,64 @@ section{
 }
 
 
+/*BEGINNING OF UPCOMING EVENTS*/
 
 
-.events{
-    display: inline;
+
+.cal-events{
+    
+    padding: 2rem 0;
+}
+
+.cal-events hr{
+    margin-top: 2rem;
+}
+
+.cal-events h1{
     text-align: center;
-    margin: 50px;
+}
 
+
+
+
+
+
+.customcontainer{
+    margin: 20px;
+}
+
+.cardcontrol{
+    margin: auto;
+    
 }
 
 .card{
-    position: relative;
     
-    border: red solid 1px;
+    border: 1px solid #F82424;
     border-radius: 25px;
-    filter: drop-shadow(5px 10px 3px #777779);   
+    padding: 0px;
+    margin: auto;
     
 }
 
 .image-wrapper{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    border: springgreen 1px solid;
+    
+    padding: 0px;
 }
 
+.image-wrapper img{
+   width: 100%;
+   height: auto;
+   
+}
+
+.text h6, p{
+font-size: medium;
+vertical-align: bottom;
+}
 
 .text ul li{
-    margin-left: 30px;
+    margin-left: 20px;
     
 }
 
@@ -197,10 +233,11 @@ section{
 .wrapper{
     height:600px;
     width: 500px;
-    border: tomato 1px solid;
+    border: #F82424 1px solid;
     margin: auto;
     align-items: center;
     border-radius: 25px;
+    margin-top: 10px;
 }
 
 .wrapper h3{
@@ -218,7 +255,9 @@ form{
     display: inline;
 }
 
-
+.footercustom{
+    background-color: #F82424;
+}
 
 
 

@@ -3,8 +3,9 @@
 <html>
   <head>
     <title>Community Wellness</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link href ="style.css" rel="stylesheet" type="text/css"/>
   </head>
@@ -16,7 +17,7 @@
     <div class="navbarwrapper">
       <nav class="navbar navbar-expand-md fixed-top customNavbar">
         <a href="#" class="navbar-brand logo">
-          <img src="./images/Comm_logo.png"><p>CommWell</p></a>
+          <img src="./images/comm-logo.png"><p>CommWell</p></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +56,7 @@
   <section id="about">
     <div class="aboutus">
       <h1>About Us</h1>
-      
+      <hr>
       <div class="aboutwrap">
       <img class="abtimgr" src="./images/comm-well-garddening.jpg" alt="planting1">
       <h2>Our Vision</h2>
@@ -72,7 +73,7 @@
 
       <div class="aboutwrap">
       <img class="abtimgr" src="./images/older-adult.jpg" alt="adult-exercise">
-      <h2>Wht We Do</h2>
+      <h2>What We Do</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, saepe!</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum sorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum sint nostrum ipsaorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum s aut.</p>
     </div>
@@ -89,22 +90,19 @@
   <section id="events">
    
     <div class= "cal-events">
-      <i class="fa fa-calendar" aria-hidden="true"></i>
       <h1>Upcoming Events</h1>
+        
+      <hr>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 card">
+    <div class="container customcontainer">
+      <div class="row cardcontrol">
+        <div class="col-md-3 col-sm-12 card">
           <div class="image-wrapper">
-            <img src="./images/Tree-Plantation-Drive.jpg" alt="plantation">
+            <img src="./images/tree-plantation-drive.jpg" alt="plantation">
           </div>
           <div class="text">
             <ul>
-              <li>
-                <h6>Description:</h6>
-                <p>Tree-Plantaion Drive</p>
-              </li>
               <li>
                 <h6>Description:</h6>
                 <p>Tree-Plantaion Drive</p>
@@ -120,41 +118,54 @@
             </ul>
           </div>
 
-        </div>  
-         
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./images/blood.jpg" alt="Card image cap">
-          
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item custom-li">
-              <h6>Description:</h6>
-              <p>Food Bank</p>
-            </li>
-            <li class="list-group-item custom-li">
-              <h6>Time:</h6>
-              <p>09:00am - 04:00pm</p>
-            </li>
-            <li class="list-group-item custom-li"> 
-              <h6>Venue:</h6>
-              <p>Fictitious place</p>
-            </li>
-          </ul>
-          
         </div>
+        <div class="col-md-3 col-sm-12 card">
+          <div class="image-wrapper">
+            <img src="./images/blood.jpg" alt="plantation">
+          </div>
+          <div class="text">
+            <ul>
+              <li>
+                <h6>Description:</h6>
+                <p>Blood Donation Camp</p>
+              </li>
+              <li>
+                <h6>Time:</h6>
+                <p>5:00am - 11:00am</p>
+              </li>
+              <li>
+                <h6>Venue:</h6>
+                <p>Fictitious place</p>
+              </li>
+            </ul>
+          </div>
 
-          <div class="col-md-4 col-sm-12 card">
-            <img src="./images/Food-Bank.jpg" alt="food bank">
-            <div class="text">
-            <h6>Description:</h6>
-            <p>Food Bank</p>
-            <h6>Time:</h6>
-            <p>09:00am - 04:00pm</p>
-            <h6>Venue:</h6>
-            <p>Fictitious place</p>
-            </div>
-          </div> 
         </div>
-      </div>    
+        <div class="col-md-3 col-sm-12 card">
+          <div class="image-wrapper">
+            <img src="./images/food-bank.jpg" alt="plantation">
+          </div>
+          <div class="text">
+            <ul>
+              <li>
+                <h6>Description:</h6>
+                <p>Food Bank</p>
+              </li>
+              <li>
+                <h6>Time:</h6>
+                <p>5:00am - 11:00am</p>
+              </li>
+              <li>
+                <h6>Venue:</h6>
+                <p>Fictitious place</p>
+              </li>
+            </ul>
+          </div>
+
+        </div>    
+       </div> 
+      </div>
+         
     </section>
   
 
@@ -166,9 +177,10 @@
 
 
     <h1>Contact Page</h1>
-
+    <hr>
     <div class="wrapper">
     <form>
+      <h3>Enter your details</h3>
       <div class="form-group">
         <label for="name">Full Name:</label>
         <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -181,19 +193,17 @@
       <div class="form-group">
         <label for="comment">Comment:</label>
         <textarea class="form-control" id="comment" rows="5"></textarea>
-      </div>
       
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>
   </section>
 
-  <footer class="page-footer font-small">
+  <footer class="page-footer footercustom">
 
     <div class="container">
       <div class="row">
   
-        
         <div class="col-md-12">
           <div class="flex-center">
   
