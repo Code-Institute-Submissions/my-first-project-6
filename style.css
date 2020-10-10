@@ -169,6 +169,7 @@ hr{
 
 
 .customcontainer{
+    max-width: 100%;
     margin: 20px;
 }
 
@@ -187,13 +188,14 @@ hr{
 }
 
 .image-wrapper{
-    
+    position: relative;
     padding: 0px;
 }
 
 .image-wrapper img{
-   width: 100%;
-   height: auto;
+    position: absolute;
+    width: 100%;
+    height: auto;
    
 }
 
