@@ -64,7 +64,6 @@ section{
 /*-----HOME PAGE------*/
 
 .banner{
-    position: relative;
     margin: 18px 0px 0px;
     width: 100%;
     border: indigo 1px solid;
@@ -72,8 +71,8 @@ section{
 }
 
 .image img{
-    width: 1348px;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
    
