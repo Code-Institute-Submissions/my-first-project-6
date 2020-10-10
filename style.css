@@ -241,5 +241,13 @@ form{
 .text-footer p{
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 18px;
+}
+
+
+.text-footer a{
+    padding: 10px 20px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
 }
