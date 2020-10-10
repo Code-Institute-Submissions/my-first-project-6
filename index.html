@@ -3,20 +3,20 @@
 <html>
   <head>
     <title>Community Wellness</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link href ="style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
+    
   <header>
 
      <!--BEGINNING OF NAVIGATION BAR-->
     <div class="navbarwrapper">
       <nav class="navbar navbar-expand-md fixed-top customNavbar">
         <a href="#" class="navbar-brand logo">
-          <img src="./images/comm-logo.png"><p>CommWell</p></a>
+          <img src="./images/Comm_logo.png"><p>CommWell</p></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +33,7 @@
     </div>
    <!--END OF NAVIGATION BAR-->
   </header>
-            <!--BEGINNING OF HOME SECTION-->
+
   <section id="home">
     <div class="banner">
       <div class="image">
@@ -45,72 +45,105 @@
     <div class="unitytext">
       <h2>"Alone, we can do so little; together, we can do so much" - Helen Keller.</h2>
       <h6>To find out how you can contribute,</h6>
-      <button class="contactbtn"><h6>Click Here</h6></button>
+      <button class="contactbtn"><h6><a href="#contact">Click Here</a></h6></button>
     </div> 
     
     
   </section>
-             <!--END OF HOME SECTION-->
+  <!--END OF HOME SECTION-->
   
-            <!--BEGINNING OF ABOUT SECTION-->
-
   <section id="about">
     <div class="aboutus">
       <h1>About Us</h1>
+      
+      <div class="aboutwrap">
+      <img class="abtimgr" src="./images/comm-well-garddening.jpg" alt="planting1">
       <h2>Our Vision</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, alias!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit similique quam mollitia deserunt repellendus ullam commodi quasi est cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit similique quam mollitia deserunt repellendus ullam commodi quasi est cumque.</p>
+      </div>
+      
+      <div class="aboutwrap">
+      <img class="abtimgl" src="./images/running-community-wellness.jpg" alt="running">
       <h2>Who We Are</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum sint nostrum ipsa aut.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum sint nostrum ipsa aut.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro mai</p>
+      </div>
+
+      <div class="aboutwrap">
+      <img class="abtimgr" src="./images/older-adult.jpg" alt="adult-exercise">
       <h2>Wht We Do</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, saepe!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum sorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum sint nostrum ipsaorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat illo, labore corporis a hic laborum pariatur nobis porro maiores, id, sequi atque error cupiditate cum s aut.</p>
+    </div>
     </div>
 
-    <div class="unityimg">
-      <img src="./images/together.png" alt="unity">
-    </div>
+    
+     
+    
 
-  </section>
-        <!--END OF ABOUT SECTION-->
+  </section> 
   
-   <!--BEGINNING OF UPCOMING EVENTS-->
+    <!--BEGINNING OF UPCOMING EVENTS-->
 
   <section id="events">
-    
+   
     <div class= "cal-events">
       <i class="fa fa-calendar" aria-hidden="true"></i>
       <h1>Upcoming Events</h1>
     </div>
 
-    <div class="container p=10">
+    <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-12 card">
-          <div class=""></div>
-          <img src="./images/tree-plantation-drive.jpg" alt="plantation">
+          <div class="image-wrapper">
+            <img src="./images/Tree-Plantation-Drive.jpg" alt="plantation">
+          </div>
           <div class="text">
-            <h6>Description:</h6>
-            <p>Tree-Plantaion Drive</p>
-            <h6>Time:</h6>
-            <p>5:00am - 11:00am</p>
-            <h6>Venue:</h6>
-            <p>Fictitious place</p>
+            <ul>
+              <li>
+                <h6>Description:</h6>
+                <p>Tree-Plantaion Drive</p>
+              </li>
+              <li>
+                <h6>Description:</h6>
+                <p>Tree-Plantaion Drive</p>
+              </li>
+              <li>
+                <h6>Time:</h6>
+                <p>5:00am - 11:00am</p>
+              </li>
+              <li>
+                <h6>Venue:</h6>
+                <p>Fictitious place</p>
+              </li>
+            </ul>
           </div>
 
         </div>  
          
-       <div class="col-md-4 col-sm-12 card">
-            <img src="./images/blood.jpg" alt= "blood bank">
-            <div class="text">
-            <h6>Description:</h6>
-            <p>Blood Donation Camp</p>
-            <h6>Time:</h6>
-            <p>9:00am - 01:00pm</p>
-            <h6>Venue:</h6>
-            <p>Fictitious place</p>
-            </div>
-          </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./images/blood.jpg" alt="Card image cap">
+          
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item custom-li">
+              <h6>Description:</h6>
+              <p>Food Bank</p>
+            </li>
+            <li class="list-group-item custom-li">
+              <h6>Time:</h6>
+              <p>09:00am - 04:00pm</p>
+            </li>
+            <li class="list-group-item custom-li"> 
+              <h6>Venue:</h6>
+              <p>Fictitious place</p>
+            </li>
+          </ul>
+          
+        </div>
 
           <div class="col-md-4 col-sm-12 card">
-            <img src="./images/food-bank.jpg" alt="food-bank">
+            <img src="./images/Food-Bank.jpg" alt="food bank">
             <div class="text">
             <h6>Description:</h6>
             <p>Food Bank</p>
@@ -119,7 +152,7 @@
             <h6>Venue:</h6>
             <p>Fictitious place</p>
             </div>
-          </div>
+          </div> 
         </div>
       </div>    
     </section>
@@ -133,29 +166,75 @@
 
 
     <h1>Contact Page</h1>
-    <div class="wrapper">
-      <h3>Enter your details:</h3>
-      <div class="formlist">
-        <form action="#" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" value="name" autocomplete="off"
-         >
-        <label for="email">Email Id:</label>
-        <input type="email" name="email" id="email" value="email">
-        <label for="contact1">Contact No:</label>
-        <input type="tel" name="contact" id="contact1" value="+44">
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment"></textarea>
-        <button type="submit" value="submit" name="submit">Submit</button>
-        </form>
-      </div>
-    </div>
 
+    <div class="wrapper">
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="Email1">Email address:</label>
+        <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea class="form-control" id="comment" rows="5"></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
   </section>
+
+  <footer class="page-footer font-small">
+
+    <div class="container">
+      <div class="row">
+  
+        
+        <div class="col-md-12">
+          <div class="flex-center">
+  
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://google.com"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
      
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>
