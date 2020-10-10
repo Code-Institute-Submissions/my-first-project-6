@@ -178,26 +178,13 @@ hr{
     
 }
 
-.card{
+.card img{
+    object-fit: cover;
     
-    border: 1px solid #F82424;
-    border-radius: 25px;
-    padding: 0px;
-    margin: auto;
+  
     
 }
 
-.image-wrapper{
-    position: relative;
-    padding: 0px;
-}
-
-.image-wrapper img{
-    position: absolute;
-    width: 100%;
-    height: auto;
-   
-}
 
 .text h6, p{
 font-size: medium;
@@ -251,4 +238,8 @@ form{
     background-color: #F82424;
 }
 
-
+.text-footer p{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
