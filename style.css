@@ -164,44 +164,33 @@ hr{
 }
 
 
-
-
-
-
-.customcontainer{
-    max-width: 100%;
-    margin: 20px;
+.cardtext{
+    padding: 20px 10px;
+    vertical-align: bottom;
 }
 
-.cardcontrol{
-    margin: auto;
+.cardtext h3, p{
+    display: inline;
     
 }
 
-.card img{
-    object-fit: cover;
-    
-  
-    
+.cardtext ul li{
+    padding: 15px;
 }
 
-
-.text h6, p{
-font-size: medium;
-vertical-align: bottom;
+.custom-deck{
+    margin: 30px;
 }
 
-.text ul li{
-    margin-left: 20px;
+.custom-card{
+    padding: 30px;
+    border: 1px solid #F82424;
+    border-radius: 15px;
+    filter: drop-shadow(10px 10px 4px rgb(46, 45, 45))
     
 }
 
-
-
-
-
-
-
+/*CSS CONTACT*/
 
 #contact h1{
     text-align: center;
