@@ -98,6 +98,10 @@ section{
     text-align: center;
 }
 
+.aboutus h4{
+    font-weight: bold;
+}
+
 hr{
     border: 1px solid #F82424;
     width: 20%;
