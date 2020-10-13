@@ -86,26 +86,6 @@ section{
 }
 
 
-
-.contactbtn{
-    height: 50px;
-    width: 120px;
-    background-color: #F82424;
-    border-radius: 20px;
-    display: inline-block;
-    filter: drop-shadow(3px 6px 3px rgb(48, 47, 47));
-}
-
-.contactbtn h6{
-    padding: 0px;
-    line-height: 0px;
-    font-weight: bolder;
-}
-.contactbtn h6 a{
-    text-decoration: none;
-    color: white;
-}
-
 /*-------END OF HOME PAGE-----*/
 
 
@@ -201,11 +181,23 @@ hr{
 .wrapper{
     height:600px;
     width: 500px;
-    border: #F82424 1px solid;
     margin: auto;
     align-items: center;
     border-radius: 25px;
     margin-top: 10px;
+}
+
+.sub-btn{
+    background-color: #F82424;
+    border:1px solid #F82424;
+    text-align: center;
+    
+}
+
+.sub-btn:hover{
+    background-color: white;
+    border:1px solid #F82424;
+    color: #F82424
 }
 
 .wrapper h3{
@@ -239,4 +231,8 @@ form{
     color: white;
     align-items: center;
     cursor: pointer;
+}
+
+.cust-text{
+    color: white;
 }
