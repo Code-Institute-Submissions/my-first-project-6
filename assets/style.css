@@ -44,6 +44,14 @@ section{
     text-transform: uppercase;
 }
 
+.navbar-toggler{
+    border: 1px solid white;
+}
+.cust-icon{
+    color: white;
+    border: solid 1px white;
+}
+
 .logo img{
     width: 15%;
     height: 15%;
