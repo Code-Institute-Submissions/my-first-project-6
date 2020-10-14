@@ -6,7 +6,7 @@
 
 ## Description
 
-People Matter! A saying you may find useful is: “If you’d like someone to do a big thing, ask them to do a little thing.” Bring people in, build a team, and encourage, thank and support each other at every stage.   
+People Matter!!! A saying you may find useful is: “If you’d like someone to do a big thing, ask them to do a little thing.” Bring people in, build a team, and encourage, thank and support each other at every stage.   
 
 The direct and indirect impact that events have on communities are important in a number of different ways. They create a strong coming together for people from all walks of life, they provide opportunities for participation, volunteering and encourage involvement for all ages. Community involvement in events also provides social, cultural, economic and environmental development throughout to the surrounding areas, so is beneficial in many ways and important to ensure that community is the focal point of events.    
 
