@@ -245,6 +245,7 @@ form{
     text-align: center;
     color: white;
     font-size: 18px;
+    display: block;
 }
 
 
@@ -253,10 +254,15 @@ form{
     color: white;
     align-items: center;
     cursor: pointer;
+    margin: auto;
 }
 
 .cust-text{
     color: white;
+}
+
+.text-footer{
+    justify-content:center;
 }
 
 
