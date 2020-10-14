@@ -269,6 +269,10 @@ form{
     justify-content:center;
 }
 
+.anchor{
+    align-items: center;
+}
+
 
 @media only screen and (max-width: 769px) {
    
