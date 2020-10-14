@@ -176,6 +176,10 @@ hr{
     
 }
 
+.cardtext p{
+    font-size: 400;
+}
+
 .cardtext ul li{
     padding: 15px;
 }
