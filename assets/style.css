@@ -141,7 +141,7 @@ hr{
     margin: 0px 10px;
 
 }
-
+/*----END OF ABOUT US----*/
 
 /*BEGINNING OF UPCOMING EVENTS*/
 
@@ -252,4 +252,19 @@ form{
 
 .cust-text{
     color: white;
+}
+
+
+@media only screen and (max-width: 769px) {
+   
+    .aboutwrap .abtimgr, .abtimgl{
+        float: none;
+  }
+}
+@media (min-width: 880px){
+
+.card-deck .card {
+    flex: 100%
+}
+
 }
