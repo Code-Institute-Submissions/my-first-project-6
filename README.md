@@ -2,7 +2,7 @@
 
 #### A focus on community development in conjunction with caring for the environment to make it sustainable for the future generations.
 
-#### By _**{List of contributors}**_
+#### By _**Johnny Valentino Fernandes**_
 
 ## Description
 
@@ -20,30 +20,20 @@ The project aims at bringing people together to collectively engage in activitie
 
 ## Setup/Installation Requirements
 
-* __
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+The webpage does not require any specific installation requirements. All it requires is a desktop, laptop or any mobile device with internet browser - preferably Google Chrome or Firefox.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+If you come across any issues or have questions, ideas or concerns, please contact me by email at ["my email id"](johnnyferns@gmail.com).  Anyone is welcome to make a contribution to the code.
 
 ## Technologies Used
 
 The basic technologies that have been used in the project are:
 
 1. HTML -  the standard markup language for Web pages. With HTML you can create your own Website.  
-2. CSS - HTML only gives you the skeletal framework of the website. However, CSS hepls you design the webpage, thereby giving you an array of styles, colors & formatting.  
-3. Bootstrap - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. It reduces the lines of the code that would have otherwise been required to style the website.  
-4. GitHub - GitHuhs are commonly used to host open-source projects. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wikis for every project.  
+2. CSS - HTML only gives you the skeletal framework of the website. However, CSS hepls you design the webpage, thereby giving you an array of styles, colors & formatting options.  
+3. Bootstrap - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. It reduces the lines of the code that would have otherwise been required to style the website. To use Bootstrap, you can either download the CDN from their website, or copy the URL that links to the CDN on the Bootstrap website.    
+4. GitHub - GitHubs are commonly used to host open-source projects. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wikis for every project.  
 
 ### License
 
