@@ -128,11 +128,16 @@ hr{
 
 .aboutwrap{
     margin: 120px 0px;
+    border: 1px #F82424 solid;
+    padding: 30px;
+    border-radius: 25px;
+    
 }
 
 .aboutwrap .abtimgr, .abtimgl{
     width: 20%;
     height: auto;
+    
     
 }
 .aboutwrap .abtimgr{
@@ -165,12 +170,6 @@ hr{
     text-align: center;
 }
 
-
-.cardtext{
-    padding: 20px 10px;
-    vertical-align: bottom;
-}
-
 .cardtext h5, p{
     display: inline;
     
@@ -192,7 +191,7 @@ hr{
     padding: 30px;
     border: 1px solid #F82424;
     border-radius: 15px;
-    filter: drop-shadow(10px 10px 4px rgb(46, 45, 45))
+    filter: drop-shadow(2px 4px 4px rgb(68, 68, 68));
     
 }
 
