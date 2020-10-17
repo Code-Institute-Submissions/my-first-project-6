@@ -56,7 +56,6 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .custombrand{
     margin-right: 0.15rem;
-    background-color: green;
 }
 
 .logo{
@@ -65,7 +64,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 .custombrand p{
-   
+   font-weight: bold;
     text-transform: uppercase;
    
 }
