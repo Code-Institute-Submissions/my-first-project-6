@@ -21,7 +21,7 @@ section{
 }
 
 .logo{
-    padding-right: 0px;
+    background-color: green;
 }
 
 .navbar-toggler-icon {
@@ -283,12 +283,12 @@ form{
 
         float: none;
         width: 70%;
-        margin: 30px 50px 30px 70px;
+        margin: 30px 50px 30px 50px;
   }
     .aboutwrap .abtimgl{
         width: 70%;
         float: none;
-        margin: 30px 50px 30px 70px;
+        margin: 30px 50px 30px 50px;
     }
 
     form{
