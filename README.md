@@ -65,14 +65,14 @@ Milestone project 1: User-Centric Frontend Development - Code Institute
     - GitHub is used to store the projects code after being pushed from Git.
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Figma:](https://figma.com/)
-    - Figma was used to create the [wireframes](https://www.figma.com/file/d2LUr02eNJamgRxfjXtI28/Untitled?node-id=0%3A1) during the design process. The initial wireframe was created as a starting point and the website was then structured based of user experience.
+    - Figma was used to create the [wireframes](https://www.figma.com/file/d2LUr02eNJamgRxfjXtI28/Untitled?node-id=0%3A1) during the design process. The initial wireframe was created as a starting point and the website was then structured based on user experience.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://johnnyferns14.github.io/my-first-project/assets/images/HTMLValidator.jpg)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]("./assets/images/CSSValidator.jpg)
 
 ### Further Testing
 
