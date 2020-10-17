@@ -85,7 +85,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - All links will function, but the social media links will open the main page of that particular platform. The "Submit" button has not been assigned any function.
 
-- This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5). When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen. This will disappear on smaller screens the box is used for direct to call actions and social media. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
+- All links will function, but the social media links will open the main page of that particular platform. The "Submit" button has not been assigned any function.
+
+- This site was tested across multiple screen sizes on Chrome, Microsoft Edge and Firefox. To ensure compatibility and responsiveness it was also tested on an android based mobile device (Samsung S7 Edge). In some mobiles, there is a gap that exists on the side which is probably due to the large size banner image.
 
 - The text and card-decks will properly align on every screen size.
 
