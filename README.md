@@ -107,6 +107,8 @@ To run locally, you can clone this repository directly into the editor of your c
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
+-   Format for the README file used from the sample file of code institute.
+
 
 
 ## Setup/Installation Requirements
