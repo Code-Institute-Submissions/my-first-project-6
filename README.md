@@ -6,7 +6,7 @@ Milestone project 1: User-Centric Frontend Development - Code Institute
 
 
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="./assets/images/CommunityWellnessMock.png"></h2>
 
 ## User Experience (UX)
 
@@ -35,14 +35,6 @@ Milestone project 1: User-Centric Frontend Development - Code Institute
         -   The large, hero banner is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. The image has been subsequently edited to meet the color scheme adopted in the website.
 
 
-*
-   ### Wireframes
-
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -91,7 +83,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-- All links will function, but the social media links will open the main page of that particular platform. The "Submit" button will return to the home section.
+- All links will function, but the social media links will open the main page of that particular platform. The "Submit" button has not been assigned any function.
 
 - This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5). When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen. This will disappear on smaller screens the box is used for direct to call actions and social media. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
 

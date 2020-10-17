@@ -216,8 +216,12 @@ hr{
 .mybutton .sub-btn{
     background-color: #F82424;
     border:1px solid #F82424;
-    
-    
+        
+}
+
+.mybutton{
+    display: block;
+    text-align: center;
 }
 
 .mybutton .sub-btn:hover{
