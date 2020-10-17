@@ -71,8 +71,8 @@ Milestone project 1: User-Centric Frontend Development - Code Institute
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://johnnyferns14.github.io/my-first-project/assets/images/HTMLValidator.jpg)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]("./assets/images/CSSValidator.jpg)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Download Results](https://f3fa49a0-1d73-4992-9d6b-3b707892e943.ws-eu01.gitpod.io/files/download/?id=90bac820-cf89-4691-b3d6-fd75153c96c0)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Download Results](https://f3fa49a0-1d73-4992-9d6b-3b707892e943.ws-eu01.gitpod.io/files/download/?id=79a20d1a-6dfe-4c69-8dfa-ab8837d36053)
 
 ### Further Testing
 
@@ -83,11 +83,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-- All links will function, but the social media links will open the main page of that particular platform. The "Submit" button has not been assigned any function.
+- All links will function, but the social media links will open the homepage of that particular platform. The "Submit" button has not been assigned any function.
 
 - All links will function, but the social media links will open the main page of that particular platform. The "Submit" button has not been assigned any function.
 
-- This site was tested across multiple screen sizes on Chrome, Microsoft Edge and Firefox. To ensure compatibility and responsiveness it was also tested on an android based mobile device (Samsung S7 Edge). In some mobiles, there is a gap that exists on the side which is probably due to the large size banner image.
+- This site was tested across multiple screen sizes on Chrome, Microsoft Edge and Firefox. To ensure compatibility and responsiveness it was also tested on an android based mobile device (Samsung S7 Edge).
 
 - The text and card-decks will properly align on every screen size.
 
@@ -103,7 +103,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Code
 
--   The full-screen hero image code came from this [Website](http://lauradunkley.com)
+-   The full-screen hero image code came from this [website](http://lauradunkley.com)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
