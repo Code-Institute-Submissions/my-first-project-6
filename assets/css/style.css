@@ -204,12 +204,12 @@ hr{
 }
 
 .wrapper{
-    height:600px;
-    width: 500px;
+    height:auto;
+    width: 100%;
     margin: auto;
     align-items: center;
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 10px 30px;
 }
 
 .mybutton .sub-btn{
@@ -236,6 +236,7 @@ hr{
 
 form{
     margin: 50px;
+    padding: 0 100px;
 }
 
 
